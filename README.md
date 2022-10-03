@@ -1,6 +1,6 @@
 # Frontend Mentor - Four card feature section
 
------LINK CHALLENGE---------> https://jolly-dieffenbachia-7ae71e.netlify.app/
+-----LINK CHALLENGE---------> https://jolly-dieffenbachia-7ae71e.netlify.app/ <---------LINK CHALLENGE-----
 
 ![Design preview for the Four card feature section coding challenge](./design/desktop-preview.jpg)
 
