@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@200;400;600&display=swap');
+
+:root{
+    --Red: hsl(0, 78%, 62%);
+    --Cyan: hsl(180, 62%, 55%);
+    --Orange: hsl(34, 97%, 64%);
+    --Blue: hsl(212, 86%, 64%);
+    --veryDarkBlue: hsl(234, 12%, 34%);
+    --GrayishBlue: hsl(229, 6%, 66%);
+    --veryLightGray: hsl(0, 0%, 98%);
+}
+
+* {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    background-color: var(--veryLightGray);
+}
+
+.container {
+    /* border: 1px solid #000; */
+    width: 370px;
+    height: 1250px;
+    background-color: var(--veryLightGray);
+    margin-bottom: 40px;
+}
+
+h1{
+    color: var(--GrayishBlue);
+    text-align: center;
+    font-size: 20px;
+    font-weight: lighter;
+    padding-top: 80px;
+}
+
+.subtitle {
+    color: var(--veryDarkBlue);
+    text-align: center;
+    font-size: 20px;
+}
+
+.first-p {
+    color: var(--GrayishBlue);
+    text-align: center;
+    font-size: 12px;
+    margin: 15px 60px 85px 60px;
+}
+
+.supervisor {
+    /* border: 1px solid #000; */
+    width: 310px;
+    height: 220px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 5px  5px 10px var(--veryDarkBlue);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.supervisor:hover {
+    box-shadow: 5px  5px 10px var(--Cyan);
+}
+
+.color-1 {
+    border-top: 3px solid var(--Cyan);
+    width: 305px;
+    height: 10px;
+    border-radius: 3px;
+}
+
+.icon-1 {
+    background-image: url(/images/icon-supervisor.svg);
+    background-size: cover;
+    width: 60px;
+    height: 60px;
+    margin: 20px 25px 0 225px;
+    
+}
+
+.team{
+    /* border: 1px solid #000; */
+    width: 310px;
+    height: 220px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 5px  5px 10px var(--veryDarkBlue);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.team:hover {
+    box-shadow: 5px  5px 10px var(--Red);
+}
+
+.color-2 {
+    border-top: 3px solid var(--Red);
+    width: 305px;
+    height: 10px;
+    border-radius: 3px;
+}
+
+.icon-2 {
+    background-image: url(/images/icon-team-builder.svg);
+    background-size: cover;
+    width: 60px;
+    height: 60px;
+    margin: 20px 25px 0 225px;
+}
+
+
+.karma {
+    /* border: 1px solid #000; */
+    width: 310px;
+    height: 220px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 5px  5px 10px var(--veryDarkBlue);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.karma:hover {
+    box-shadow: 5px  5px 10px var(--Orange);
+}
+
+.color-3 {
+    border-top: 3px solid var(--Orange);
+    width: 305px;
+    height: 10px;
+    border-radius: 3px;
+}
+
+.icon-3 {
+    background-image: url(/images/icon-karma.svg);
+    background-size: cover;
+    width: 60px;
+    height: 60px;
+    margin: 20px 25px 0 225px;
+}
+
+.calculator {
+    /* border: 1px solid #000; */
+    width: 310px;
+    height: 220px;
+    border-radius: 8px;
+    box-shadow: 5px  5px 10px var(--veryDarkBlue);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.calculator:hover {
+    box-shadow: 5px  5px 10px var(--Blue);
+}
+
+.color-4 {
+    border-top: 3px solid var(--Blue);
+    width: 305px;
+    height: 10px;
+    border-radius: 3px;
+}
+
+.icon-4 {
+    background-image: url(/images/icon-calculator.svg);
+    background-size: cover;
+    width: 60px;
+    height: 60px;
+    margin: 20px 25px 0px 225px;
+}
+
+.card-subtitle {
+    color: var(--veryDarkBlue);
+    padding: 15px 170px 18px 25px;
+}
+
+p{
+    color: var(--GrayishBlue);
+    font-size: 0.8em;
+    margin: 18px 25px auto 25px;
+}
+
+@media(min-width: 1600px){
+    .container {
+        /* border: solid 1px #000; */
+        margin: 50px auto;
+        width: 1500px;
+        height: 900px;
+    }
+
+    .cards {
+        /* border: 1px solid #000; */
+        width: 1300px;
+        height: 550px;
+        display: flex;
+        align-items: center;
+    }
+
+    .cards-container {
+        margin: 0;
+    }
+
+    .supervisor {
+        margin-right: 30px;
+    }
+
+    .calculator {
+        margin-left: 30px;
+    }
+
+    h1{
+        padding-top: 50px;
+        font-size: 30px;
+    }
+
+    .subtitle {
+        font-size: 30px;
+    }
+
+    .first-p {
+        font-size: 15px;
+        margin-left: 500px;
+        margin-right: 500px;
+        margin-bottom: 20px;
+    }
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
